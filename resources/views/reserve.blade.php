@@ -26,86 +26,96 @@
   </header>
    	<section class="map-bg">
     		<div class="container">
-   		<div class="map">
-     			<div class="first-row">
-       			<div class="first-row_item">
-              <a data-toggle="modal" data-target="#exampleModalScrollable">
-                <div class="a_item"></div>
-              </a>
-            </div>
-            <div class="first-row_item">
-              <a data-toggle="modal" data-target="#exampleModalScrollable">
-                <div class="a_item"></div>
-              </a>
-            </div>
-            <div class="first-row_item">
-              <a data-toggle="modal" data-target="#exampleModalScrollable">
-                <div class="a_item"></div>
-              </a>
-            </div>
-            <div class="first-row_item">
-              <a data-toggle="modal" data-target="#exampleModalScrollable">
-                <div class="a_item"></div>
-              </a>
-            </div>
-       			<div class="break"></div>
-       		<div class="circle-row_item">
-              <a data-toggle="modal" data-target="#exampleModalScrollable">
-                <div class="a_item"></div>
-              </a>
-            </div>
-            <div class="circle-row_item" style="margin-top:1vw; margin-bottom: 0;">
-              <a data-toggle="modal" data-target="#exampleModalScrollable">
-                <div class="a_item"></div>
-              </a>
-            </div>
-       			<div class="break"></div>
-       		<div class="third-row_item">
-              <a data-toggle="modal" data-target="#exampleModalScrollable">
-                <div class="a_item"></div>
-              </a>
-            </div>
-            <div class="third-row_item">
-              <a data-toggle="modal" data-target="#exampleModalScrollable">
-                <div class="a_item"></div>
-              </a>
-            </div>
-            	<div class="break"></div>
-       		<div class="circle-row_item">
-              <a data-toggle="modal" data-target="#exampleModalScrollable">
-                <div class="a_item"></div>
-              </a>
-            </div>
-            <div class="circle-row_item">
-              <a data-toggle="modal" data-target="#exampleModalScrollable">
-                <div class="a_item"></div>
-              </a>
-            </div>
-       			<div class="break"></div>
-       		<div class="first-row_item">
-              <a data-toggle="modal" data-target="#exampleModalScrollable">
-                <div class="a_item"></div>
-              </a>
-            </div>
-            <div class="first-row_item">
-              <a data-toggle="modal" data-target="#exampleModalScrollable">
-                <div class="a_item"></div>
-              </a>
-            </div>
-            <div class="first-row_item">
-              <a data-toggle="modal" data-target="#exampleModalScrollable">
-                <div class="a_item"></div>
-              </a>
-            </div>
-            <div class="first-row_item">
-              <a data-toggle="modal" data-target="#exampleModalScrollable">
-                <div class="a_item"></div>
-              </a>
-            </div>
-       	</div>
+          <div class="logo-reserv">
+            <p class="logo-reserv_a">
+              RESERVE
+            </p>
+            <a href="#">
+              <div class="logo-reserv_o">
+                ORDER
+              </div>
+            </a>
+          </div>
+       		<div class="map">
+         			<div class="first-row">
+           			<div class="first-row_item">
+                  <a data-toggle="modal" data-target="#exampleModalScrollable">
+                    <div class="a_item"></div>
+                  </a>
+                </div>
+                <div class="first-row_item">
+                  <a data-toggle="modal" data-target="#exampleModalScrollable">
+                    <div class="a_item"></div>
+                  </a>
+                </div>
+                <div class="first-row_item">
+                  <a data-toggle="modal" data-target="#exampleModalScrollable">
+                    <div class="a_item"></div>
+                  </a>
+                </div>
+                <div class="first-row_item">
+                  <a data-toggle="modal" data-target="#exampleModalScrollable">
+                    <div class="a_item"></div>
+                  </a>
+                </div>
+           			<div class="break"></div>
+           		<div class="circle-row_item">
+                  <a data-toggle="modal" data-target="#exampleModalScrollable">
+                    <div class="a_item"></div>
+                  </a>
+                </div>
+                <div class="circle-row_item" style="margin-top:1vw; margin-bottom: 0;">
+                  <a data-toggle="modal" data-target="#exampleModalScrollable">
+                    <div class="a_item"></div>
+                  </a>
+                </div>
+           			<div class="break"></div>
+           		<div class="third-row_item">
+                  <a data-toggle="modal" data-target="#exampleModalScrollable">
+                    <div class="a_item"></div>
+                  </a>
+                </div>
+                <div class="third-row_item">
+                  <a data-toggle="modal" data-target="#exampleModalScrollable">
+                    <div class="a_item"></div>
+                  </a>
+                </div>
+                	<div class="break"></div>
+           		<div class="circle-row_item">
+                  <a data-toggle="modal" data-target="#exampleModalScrollable">
+                    <div class="a_item"></div>
+                  </a>
+                </div>
+                <div class="circle-row_item">
+                  <a data-toggle="modal" data-target="#exampleModalScrollable">
+                    <div class="a_item"></div>
+                  </a>
+                </div>
+           			<div class="break"></div>
+           		<div class="first-row_item">
+                  <a data-toggle="modal" data-target="#exampleModalScrollable">
+                    <div class="a_item"></div>
+                  </a>
+                </div>
+                <div class="first-row_item">
+                  <a data-toggle="modal" data-target="#exampleModalScrollable">
+                    <div class="a_item"></div>
+                  </a>
+                </div>
+                <div class="first-row_item">
+                  <a data-toggle="modal" data-target="#exampleModalScrollable">
+                    <div class="a_item"></div>
+                  </a>
+                </div>
+                <div class="first-row_item">
+                  <a data-toggle="modal" data-target="#exampleModalScrollable">
+                    <div class="a_item"></div>
+                  </a>
+                </div>
+           	</div>
 
-       			</div> 
-     		</div>
+           			</div> 
+         		</div>
         <!-- Modal -->
         <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
           <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered " role="document">
