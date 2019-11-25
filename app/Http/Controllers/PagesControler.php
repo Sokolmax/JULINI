@@ -11,5 +11,8 @@ class PagesControler extends Controller
 	public function reserve(){
     	return view("reserve");
 	}
+	public function order(){
+    	return view("order");
+	}
 
 }

@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 Route::get('/reserve', "ClientsController@reserve");
 Route::post('/reserve', "ClientsController@store");
+Route::get('/order', "ClientsController@order");
