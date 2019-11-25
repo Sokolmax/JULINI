@@ -1,0 +1,99 @@
+/*                           specification                       */
+
+ul, li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+/*                           specification end                       */
+
+
+
+/*                           header-main start                       */
+.juil-style{
+	background: url(../img/bg-2.png) center center no-repeat;
+	color: white;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+.juil-style a{
+	font-size: 1.5vw;
+	color: white;
+}
+footer a{
+	color: white;
+}
+
+.logo a{
+	font-size: 7.5vw;
+	text-decoration: none;
+}
+
+.menu{
+
+}
+.menu-l, .about-l{
+	padding-top: 3vw;
+}
+.menu-l a, .about-l a{
+	font-size: 2vw;
+}
+
+.menu__item{
+	margin: 50px;
+}
+.sub{
+	padding-top: 53vh;
+	font-size: 2vw;
+}
+.icons{
+	height: 2vw;
+	margin-right: 2vw;
+	font-size: 2vw;
+}
+.icons_Path{
+	margin-right: 2vw;
+	height: 2vw;
+	opacity: .4;
+	text-align: center;
+}
+/*                           header-main end                       */
+.traditional{
+	background: url(../img/bg.png) center center no-repeat;
+	height: 100vh;
+}
+.interior{
+	background: url(../img/bg-2.png)  center center no-repeat;
+	height: 100vh;
+}
+.chef{
+	background: url(../img/bg-3.png) center center no-repeat;
+	height: 100vh;
+}
+.dish{
+	background: url(../img/bg-4.png) center center no-repeat;
+	height: 100vh;
+}
+.subscribe{
+	background: url(../img/bg-5.png) center center no-repeat;
+	height: 100vh;
+	width: 100%;
+}
+.sub-min{
+	font-size: 250%;
+	color: white;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+.sub-max{
+	font-size: 800%;
+	color: white;
+}
+.sub_input{
+	min-width: 30%;
+}
+.copyright{
+	color: white;
+}

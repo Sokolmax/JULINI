@@ -1,0 +1,185 @@
+/*                                             main header start                                         */
+body{
+	background-color: black;
+}
+.nav-m{
+	min-height: 10vh;
+	background-color: black;
+}
+
+.header-but_m{
+	border-color: white;
+	min-height: 5vh;
+	width: 5vh;
+	color: black;
+	background-color: black;
+	margin-left: 15px; 
+}
+.header-logo_m{
+	font-size: 5vw;
+	color: white;
+	text-align: center;
+	transition: color .5s;
+	margin-right: 15px;
+}
+
+.header-menu_m{
+	width: 15vw;
+	padding-top: 2vw;
+	text-align: center;
+	margin-right: 5vw;
+	margin-left: 5vw;
+	transition: background-color .5s;
+}
+.header-menu_m a{
+	transition: color .5s;
+	color: white;
+	font-size: 2vw;
+	text-decoration: none;
+}
+
+.header-julini_m{
+	width: 40vw;
+	text-align: center;
+	margin-right: 5vw;
+	margin-left: 5vw;
+	transition: background-color .5s;
+}
+.header-julini_m a{
+	transition: color .5s;
+	color: white;
+	font-size: 5vw;
+	text-decoration: none;
+}
+.header-about_m{
+	width: 15vw;
+	padding-top: 2vw;
+	text-align: center;
+	margin-right: 5vw;
+	margin-left: 5vw;
+	transition: background-color .5s;
+}
+.header-about_m a{
+	transition: color .5s;
+	color: white;
+	font-size: 2vw;
+	text-decoration: none;
+}
+.header-julini_m a:hover, .header-about_m a:hover, .header-menu_m a:hover{
+	color: #323232;
+}
+@media(max-width: 960px){
+	.nav-m{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.header-julini_m, .header-about_m, .header-menu_m{
+		width: 100vw;
+		padding: 0;
+		margin: 0;
+	}
+	.header-julini_m a, .header-about_m a, .header-menu_m a{
+		font-size: 20px;
+	}
+	.header-julini_m:active, .header-about_m:active, .header-menu_m:active{
+		background-color: white;
+	}
+
+}
+
+@media(max-width: 400px){
+	.header-logo_m{
+		margin-right: 0;
+		font-size: 20px;
+	}
+	.header-julini_m a, .header-about_m a, .header-menu_m a{
+		font-size: 5vw;
+	}
+
+}
+
+
+/*                                             main header end                                           */
+
+.map-bg{
+	background: url(../img/chandelier-bg.png) center center no-repeat;
+	height: 100%;
+	padding-bottom: 0;
+}
+.map{
+	background: url(../img/bg-map.png) center center no-repeat;
+	width: 100%;
+	height: 60vw;
+	display: flex;
+	justify-content: center;
+	margin-right: 0;
+	padding: 0;
+}
+.first-row{
+	padding: 5vw;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.first-row_item {
+	border: 0.3vw solid;
+	border-color: black;
+	height: 11vw;
+	width: 3vw;
+	border-radius: 5px;
+}
+.third-row_item {
+	border: 0.3vw solid;
+	border-color: black;
+	height: 4vw;
+	width: 15vw;
+	border-radius: 5px;
+}
+.circle-row_item {
+	border: 0.3vw solid;
+	border-color: black;
+	height: 4vw;
+	width: 4vw;
+	border-radius: 40px;
+}
+.circle-row_item:hover , .third-row_item:hover , .first-row_item:hover{
+	background-color: gray;
+}
+
+.a_item{
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+}
+
+.map-modal{
+	min-height: 50vh;
+}
+
+.break{
+	flex-basis: 100%;
+	height: 0%;
+}
+.footer{
+	padding-top: 3vw;
+	width: 100vw;
+	height: 10vw;
+	background-color: black;
+	color: white;
+}
+
+
+@media(max-width: 1680px){
+
+}
+
+
+@media(max-width: 960px){
+
+}
+@media(max-width: 400px){
+
+}
