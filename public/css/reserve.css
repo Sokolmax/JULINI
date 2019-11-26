@@ -96,6 +96,7 @@ body{
 		font-size: 5vw;
 	}
 
+
 }
 
 
@@ -122,10 +123,16 @@ body{
 	color: white; 
 	margin-bottom: 5vw;
 }
+
+.logo-reserv a{
+	text-decoration: none;
+}
+
 .logo-reserv_a{
 	width: 100%;
 	text-align: center;
 }
+
 .logo-reserv_o{
 	width: 100%;
 	text-align: center;

@@ -15,5 +15,7 @@ Route::get('/', function () {
     return view('main');
 });
 Route::get('/reserve', "ClientsController@reserve");
-Route::post('/reserve', "ClientsController@store");
 Route::get('/order', "ClientsController@order");
+Route::get('/send', "mailController@send");
+
+Route::post('/reserve', "ClientsController@store");
