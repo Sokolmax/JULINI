@@ -26,6 +26,39 @@
   </header>
    	<section class="map-bg">
     		<div class="container">
+          <div class="first-row">
+          <a data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"">Home delivery</a>
+          <a data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">In a restaurant</a>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-12">
+        <div class="collapse" id="multiCollapseExample1">
+            <div class="card card-body home_delivery">
+              asfffffffffff
+              аыфафыафыа
+              ыфаааааааааааааа
+              фыафыафыа
+              аыфафыафыафыа
+            </div>
+          </div>
+          </div>
+           <div class="col-12">
+           <div class="collapse" id="multiCollapseExample2">
+            <div class="card card-body d-flex in_restaurant">
+             <div class="row in_restaurant-block">
+               <div class="col-12 first_row-block">dsdasd</div>
+               <div class="col-12 second_row-block">asdasda</div>
+               <div class="col-12 third_row-block">asdasdasd</div>
+             </div>
+            </div>
+          </div>
+          </div>
+        <div class="break">
+            
+        </div>
+          <div class="second-row">
+          
+          </div>
         </div>
     </section>
 @endsection
