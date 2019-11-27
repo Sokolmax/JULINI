@@ -30,7 +30,7 @@
             <p class="logo-reserv_a">
               RESERVE
             </p>
-            <a href="#">
+            <a href="order">
               <div class="logo-reserv_o">
                 ORDER
               </div>
