@@ -68,7 +68,7 @@ body{
 .header-julini_m a:hover, .header-about_m a:hover, .header-menu_m a:hover{
 	color: #323232;
 }
-@media(max-width: 960px){
+@media(max-width: 995px){
 	.nav-m{
 		padding-left: 0;
 		padding-right: 0;

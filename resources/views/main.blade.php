@@ -94,7 +94,7 @@
                 <div class="sub-max col-sm-12 d-flex justify-content-center">
                     JULINI
                 </div>
-                <div class="sub-min col-sm-12 d-flex justify-content-center">
+                <div class="sub-min col-sm-12 d-flex justify-content-center" style="margin-top: 0; margin-bottom: 3vw; ">
                     NEWSLETTER
                 </div>
                 <form class="col-sm-12 d-flex justify-content-center">
@@ -102,6 +102,11 @@
                         <input type="email" class="form-control sub_input" id="exampleFormControlInput1" placeholder="E-mail">
                     </div>
                 </form>
+                <div class="col-sm-12 d-flex justify-content-center">
+                        <a href="send">
+                                <img src="../img/arrow.pdf" class="sub_send">
+                        </a>
+                    </div>
             </div>
         </div>
         </div>
