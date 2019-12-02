@@ -24,7 +24,7 @@
       </div>
     </nav>
   </header>
-   	<section class="map-bg">
+   	<section class="map-bg-order">
     		<div class="container">
           <div class="first-row">
           <a data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"">Home delivery</a>
@@ -46,9 +46,9 @@
            <div class="collapse" id="multiCollapseExample2">
             <div class="card card-body d-flex in_restaurant">
              <div class="row in_restaurant-block">
-               <div class="col-12 first_row-block">dsdasd</div>
-               <div class="col-12 second_row-block">asdasda</div>
-               <div class="col-12 third_row-block">asdasdasd</div>
+               <div class="col-12">dsdasd</div>
+               <div class="col-12">asdasda</div>
+               <div class="col-12">asdasdasd</div>
              </div>
             </div>
           </div>
