@@ -7,5 +7,8 @@
 	<input type="text" name="menuWeight" id="menuWeight">
 	<input type="text" name="menuCost" id="menuCost">
 	<button>ADD</button>
+	<a href="/menu">
+		MENU
+    </a>
 </form>
 @endsection

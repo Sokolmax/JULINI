@@ -136,13 +136,15 @@ body{
 .logo-reserv_o{
 	width: 100%;
 	text-align: center;
+	font-size: 60%;
+}
+.logo-reserv_o a{
 	color: white;
 	text-decoration: none;
-	font-size: 60%;
 	transition: color .5s;
 }
 
-.logo-reserv_o:hover{
+.logo-reserv_o a:hover{
 	color: #323232;
 }
 

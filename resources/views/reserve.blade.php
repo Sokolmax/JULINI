@@ -32,9 +32,10 @@
             </p>
             <a href="order">
               <div class="logo-reserv_o">
+                <a href="order">
                 ORDER
+                </a>
               </div>
-            </a>
           </div>
           <div class="map">
               <div class="first-row">

@@ -6,8 +6,18 @@ use Illuminate\Http\Request;
 
 class MenuController extends Controller
 {
+
 	public function index(){
-		return view('menu/menu');
+		$manus = \App\Menu::all()->sortBy("name");
+		return view('menu/menu',[
+			'manus' => $manus,
+		]);
+	}
+
+	public function show(){
+		return view('menu/menuShow',[
+			'menu' => \App\Menu(),
+		]);
 	}
 
 	public function create(){
@@ -19,6 +29,7 @@ class MenuController extends Controller
 	    $menu->name = \request('menuName');
 	    $menu->weight = \request('menuWeight');
 	    $menu->cost = \request('menuCost');
-    	return redirect('/menu');
+	    $menu->save();
+    	return redirect('/menu/create');
     }
 }
