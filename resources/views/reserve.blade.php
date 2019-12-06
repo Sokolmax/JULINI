@@ -12,7 +12,7 @@
       <div id="navbarSupportedContent" class="collapse navbar-collapse justify-content-arround">
         <ul class="navbar-nav text-secondary">
           <li class="nav-item header-menu_m">
-            <a href="#" class="nav-link">MENU</a>
+            <a href="menu" class="nav-link">MENU</a>
           </li>
           <li class="nav-item header-julini_m">
             <a href="/" class="nav-link">JULINI</a>
@@ -24,129 +24,143 @@
       </div>
     </nav>
   </header>
-   	<section class="map-bg">
-    		<div class="container">
+    <section class="map-bg">
+        <div class="container">
           <div class="logo-reserv">
             <p class="logo-reserv_a">
               RESERVE
             </p>
             <a href="order">
               <div class="logo-reserv_o">
+                <a href="order">
                 ORDER
+                </a>
               </div>
-            </a>
           </div>
-       		<div class="map">
-         			<div class="first-row">
-           			<div class="first-row_item">
+          <div class="map">
+              <div class="first-row">
+                <div class="first-row_item">
                   <a data-toggle="modal" data-target="#exampleModalScrollable">
-                    <div class="a_item"></div>
+                    <div class="a_item" onclick="getTabel(1)"></div>
                   </a>
                 </div>
                 <div class="first-row_item">
                   <a data-toggle="modal" data-target="#exampleModalScrollable">
-                    <div class="a_item"></div>
+                    <div class="a_item" onclick="getTabel(2)"></div>
                   </a>
                 </div>
                 <div class="first-row_item">
                   <a data-toggle="modal" data-target="#exampleModalScrollable">
-                    <div class="a_item"></div>
+                    <div class="a_item" onclick="getTabel(3)"></div>
                   </a>
                 </div>
                 <div class="first-row_item">
                   <a data-toggle="modal" data-target="#exampleModalScrollable">
-                    <div class="a_item"></div>
+                    <div class="a_item" onclick="getTabel(4)"></div>
                   </a>
                 </div>
-           			<div class="break"></div>
-           		<div class="circle-row_item">
+                <div class="break"></div>
+              <div class="circle-row_item">
                   <a data-toggle="modal" data-target="#exampleModalScrollable">
-                    <div class="a_item"></div>
+                    <div class="a_item" onclick="getTabel(5)"></div>
                   </a>
                 </div>
                 <div class="circle-row_item" style="margin-top:1vw; margin-bottom: 0;">
                   <a data-toggle="modal" data-target="#exampleModalScrollable">
-                    <div class="a_item"></div>
+                    <div class="a_item" onclick="getTabel(6)"></div>
                   </a>
                 </div>
-           			<div class="break"></div>
-           		<div class="third-row_item">
+                <div class="break"></div>
+              <div class="third-row_item">
                   <a data-toggle="modal" data-target="#exampleModalScrollable">
-                    <div class="a_item"></div>
+                    <div class="a_item" onclick="getTabel(7)"></div>
                   </a>
                 </div>
                 <div class="third-row_item">
                   <a data-toggle="modal" data-target="#exampleModalScrollable">
-                    <div class="a_item"></div>
+                    <div class="a_item" onclick="getTabel(8)"></div>
                   </a>
                 </div>
-                	<div class="break"></div>
-           		<div class="circle-row_item">
+                  <div class="break"></div>
+              <div class="circle-row_item">
                   <a data-toggle="modal" data-target="#exampleModalScrollable">
-                    <div class="a_item"></div>
+                    <div class="a_item" onclick="getTabel(9)"></div>
                   </a>
                 </div>
                 <div class="circle-row_item">
                   <a data-toggle="modal" data-target="#exampleModalScrollable">
-                    <div class="a_item"></div>
+                    <div class="a_item" onclick="getTabel(10)"></div>
                   </a>
                 </div>
-           			<div class="break"></div>
-           		<div class="first-row_item">
+                <div class="break"></div>
+              <div class="first-row_item">
                   <a data-toggle="modal" data-target="#exampleModalScrollable">
-                    <div class="a_item"></div>
+                    <div class="a_item" onclick="getTabel(11)"></div>
                   </a>
                 </div>
                 <div class="first-row_item">
                   <a data-toggle="modal" data-target="#exampleModalScrollable">
-                    <div class="a_item"></div>
+                    <div class="a_item" onclick="getTabel(12)"></div>
                   </a>
                 </div>
                 <div class="first-row_item">
                   <a data-toggle="modal" data-target="#exampleModalScrollable">
-                    <div class="a_item"></div>
+                    <div class="a_item" onclick="getTabel(13)"></div>
                   </a>
                 </div>
                 <div class="first-row_item">
                   <a data-toggle="modal" data-target="#exampleModalScrollable">
-                    <div class="a_item"></div>
+                    <div class="a_item" onclick="getTabel(14)"></div>
                   </a>
                 </div>
-           	</div>
+            </div>
 
-           			</div> 
-         		</div>
+                </div> 
+            </div>
         <!-- Modal -->
         <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
           <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered " role="document">
             <div class="modal-content map-modal">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalScrollableTitle">1</h5>
+              <form method="post" id="reserveTabelForm" action="/reserve" class="form">
+
+              <div class="modal-header justify-content-center">
+                <input type="text" id="reserveNumber" name="reserveNumber" hidden="true">
+                <div>1</div>
+
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
-              <form method="post" action="/reserve" class="form">
                 {{ csrf_field() }}
-                <div class="modal-body">
+                <div class="modal-body justify-content-center">
                   <div class="form-group row">
-                    <label for="example-datetime-local-input" class="col-2 col-form-label">Date and time</label>
-                      <div class="col-10">
-                        <input class="form-control" type="text" value="2019-11-23T13:45:00" id="example-datetime-local-input" required>
+                      <div class="col-12">
+                        <input class="form-control {{ $errors->has('reserveName') ? 'is-invalid':''}}" type="text" name="reserveName" id="reserveName" value="{{ old('reserveName') }}" placeholder="Name">
                       </div>
                   </div>
                   <div class="form-group row">
-                    <label for="phone-number" class="col-2 col-form-label">Number</label>
-                      <div class="col-10">
-                        <input class="form-control {{ $errors->has('phone-number') ? 'is-invalid':''}}" type="text" name="phone-number" id="phone-number" value="{{ old('phone-number') }}">
+                      <div class="col-12">
+                        <input class="form-control {{ $errors->has('reservePhone') ? 'is-invalid':''}}" type="text" name="reservePhone" id="reservePhone" value="{{ old('reservePhone') }}" placeholder="Phone Number">
                         <small class="form-text text-danger">
                           <ul>
-                            @foreach($errors->get('phone-number') as $error)
+                            @foreach($errors->get('reservePhone') as $error)
                               <li>{{ $error }}</li>
                             @endforeach
                           </ul>
                         </small>
                       </div>
+                  </div>
+                  <div class="form-group row justify-content-center">
+                      <select class="col-11">
+                         <option>03.12.2019</option>
+                         <option>04.12.2019</option>
+                      </select>
+                  </div>
+                  <div class="form-group row justify-content-center">
+                      <select class="col-11">
+                         <option>20:00</option>
+                         <option>20:30</option>
+                      </select>
                   </div>
                 </div>
 
@@ -159,16 +173,21 @@
             </div>
           </div>
         </div>
-   		</div>
-   		</div>
-   		</div>
+      </div>
+      </div>
+      </div>
+
+      <script type="text/javascript">
+        function getTabel(id){
+          document.getElementById('reserveNumber').value = id;
+        }
+      </script>
 
 
-
-   	</section>
-   	<footer>
+    </section>
+    <footer>
         <div class="footer">
           5 fgfdhg hdfhddfh hdfhfdgdfsgdfg ghdfgdfgdfg fdgdfggdf
         </div>
-   	</footer>
+    </footer>
     @endsection

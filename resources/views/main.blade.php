@@ -7,7 +7,7 @@
             <div class="row"> 
                     <div class="col-sm-2 d-none d-lg-block menu-l d-flex justify-content-end">
                         <h2 class="d-none d-lg-block justify-content-center">
-                            <a href="#">
+                            <a href="/menu">
                                 MENU
                             </a>
                         </h2>

@@ -14,15 +14,16 @@ class ClientsController extends Controller
     }
     public function store(){
         $data = request()->validate([
-            'phone-number' => ['required','max:10','min:10'],
+            'reservePhone' => ['required','max:10','min:10'],
         ],[
-            'phone-number.min' => 'Введите номер коректно, номер должен состоять из 10 цифр',
-            'phone-number.max' => 'Введите номер коректно, номер должен быть меньше чем из 10 цифр',
-            'phone-number.required' => 'Введите номер коректно, номер должен состоять из 10 цифр',
+            'reservePhone.min' => 'Введите номер коректно, номер должен состоять из 10 цифр',
+            'reservePhone.max' => 'Введите номер коректно, номер должен быть меньше чем из 10 цифр',
+            'reservePhone.required' => 'Введите номер коректно, номер должен состоять из 10 цифр',
         ]);
     	$client = new \App\Client();
-    	$client->tNumber = '1';
-    	$client->pNumber = \request('phone-number');
+        $client->tNumber = \request('reserveNumber');
+        $client->name = \request('reserveName');
+        $client->pNumber = \request('reservePhone');
     	$client->save();
     	return redirect('/reserve');
     }
