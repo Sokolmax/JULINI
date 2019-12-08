@@ -22,5 +22,8 @@ Route::get('/menu', "MenuController@index");
 Route::get('/menu/show', "MenuController@show");
 Route::get('/menu/create', "MenuController@create");
 
+Route::get('/dateAdmin', "DateTimeController@index");
+
 Route::post('/reserve', "ClientsController@store");
 Route::post('/menu', "MenuController@store");
+Route::post('/dateAdmin', "DateTimeController@store");

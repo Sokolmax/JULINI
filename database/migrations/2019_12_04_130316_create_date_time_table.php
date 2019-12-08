@@ -13,7 +13,7 @@ class CreateDateTimeTable extends Migration
      */
     public function up()
     {
-        Schema::create('date_time', function (Blueprint $table) {
+        Schema::create('date_times', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('rDate', 10);
             $table->string('rTime', 10);
@@ -28,6 +28,6 @@ class CreateDateTimeTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('date_time');
+        Schema::dropIfExists('date_times');
     }
 }

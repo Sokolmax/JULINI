@@ -35,14 +35,14 @@
                             <a href="#subscr" class="icons">SUBSCRIBE NEWSLETTER</a>
                             <p class="icons_Path">|</p>
                             <div>
-                                <a href="#">
-                                    <img src="img/facebook-1.png" alt="Facebook" class="icons">
+                                <a href="#" style="text-decoration: none;">
+                                    <img src="img/icon/facebook.png" alt="Facebook" class="icons">
                                 </a>
-                                <a href="#">
-                                    <img src="img/instagram-1.png" alt="Instagram" class="icons">
+                                <a href="#" style="text-decoration: none;">
+                                    <img src="img/icon/instagram.png" alt="Instagram" class="icons">
                                 </a>
-                                <a href="#">
-                                    <img src="img/telegram-1.png" alt="Telegram" class="icons">
+                                <a href="#" style="text-decoration: none;">
+                                    <img src="img/icon/telegram.png" alt="Telegram" class="icons">
                                 </a>
                             </div>
                         </div> 
