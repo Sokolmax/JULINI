@@ -70,6 +70,8 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
         <div class="row">
           <div class="col d-flex justify-content-center">
             <div class="collapse multi-collapse in_restaurant col-12" id="in_restaurant">
@@ -77,13 +79,48 @@
                 <div class="row">
                   <div class="col">
                <div class="d-flex justify-content-center">
-                 <form class="w-100">
+                 <form class="w-50">
                   <div class="form-group first-form">
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Input number...">
                     <small id="id_Help" class="form-text text-muted">Enter the number to which the table is reserved.</small>
                   </div>
                 </form>
                 </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col d-flex justify-content-center">
+                <span>or</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col d-flex justify-content-center button_reserve">
+                <button type="button" class="btn btn-light">Reserve</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col reservation_number d-flex justify-content-center">
+                <span>Choose reservation number.</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group row d-flex justify-content-center mt-5">
+                  <label for="example-time-input" class="col-form-label">Time</label>
+                     <div class="col-6">
+                        <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                     </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col d-flex justify-content-center">
+                <span class="choose_dish">CHOOSE A DISH</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col d-flex justify-content-center">
+                <div class="col-8 dish_menu"></div>
               </div>
             </div>
               </div>

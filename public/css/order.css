@@ -41,3 +41,10 @@
 	height: 40vh;
 	width: 50vw;
 }
+.reservation_number{
+	margin-top: 2vw;
+	font-size: 1.3vw;
+}
+.button_reserve{
+	margin-top: 1vw;
+}
