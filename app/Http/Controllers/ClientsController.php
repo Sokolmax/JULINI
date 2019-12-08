@@ -10,7 +10,10 @@ class ClientsController extends Controller
         return view('order');
     }
     public function reserve(){
-    	return view('reserve');
+        $datetimes = \App\DateTime::all()->sortBy("rTime");
+        return view('reserve',[
+            'datetimes' => $datetimes,
+        ]);
     }
     public function store(){
         $data = request()->validate([

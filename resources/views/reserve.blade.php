@@ -152,14 +152,17 @@
                   </div>
                   <div class="form-group row justify-content-center">
                       <select class="col-11">
-                         <option>03.12.2019</option>
-                         <option>04.12.2019</option>
+                        @foreach($datetimes as $datetime)
+                          <option>{{ $datetime->rDate }}</option>
+                        @endforeach
                       </select>
                   </div>
+                  
                   <div class="form-group row justify-content-center">
                       <select class="col-11">
-                         <option>20:00</option>
-                         <option>20:30</option>
+                        @foreach($datetimes as $datetime)
+                          <option>{{ $datetime->rTime }}</option>
+                        @endforeach
                       </select>
                   </div>
                 </div>
