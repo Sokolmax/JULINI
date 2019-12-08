@@ -15,10 +15,11 @@
 	color: white;
 	font-size: 2vw;
 	text-decoration: none;
+	background-color: none;
 }
 .first-row a:hover{
 	color: #323232;
-	text-decoration: underline;
+	border-bottom: 4px solid #323232;
 }
 .map-bg-order{
 	background: url(../img/chandelier-bg.png) center center no-repeat;
@@ -27,4 +28,16 @@
 }
 .first-row{
 	color: white;
+}
+.choose_dish{
+	color: black;
+	font-size: 2.4vw;
+	border-bottom: 5px solid #323232;
+}
+.dish_menu{
+	margin-top: 1vw;
+	background-color: gray;
+	opacity: 50%;
+	height: 40vh;
+	width: 50vw;
 }

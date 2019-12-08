@@ -27,38 +27,79 @@
    	<section class="map-bg-order">
     		<div class="container">
           <div class="first-row">
-          <a data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"">Home delivery</a>
-          <a data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">In a restaurant</a>
+          <a data-toggle="collapse" href="#" data-target="#home_delivery" aria-expanded="false" aria-controls="home_delivery">Home Delivery</a>
+          <a data-toggle="collapse" href="#" data-target="#in_restaurant" aria-expanded="false" aria-controls="in_restaurant">In a restaurant</a>
         </div>
-        <div class="row d-flex justify-content-center">
-          <div class="col-12">
-        <div class="collapse" id="multiCollapseExample1">
-            <div class="card card-body home_delivery">
-              asfffffffffff
-              аыфафыафыа
-              ыфаааааааааааааа
-              фыафыафыа
-              аыфафыафыафыа
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="collapse multi-collapse home_delivery col-12" id="home_delivery">
+              <div class="card card-body">
+                <div class="row">
+                  <div class="col">
+               <div class="d-flex justify-content-center">
+                 <form class="w-50">
+                  <div class="form-group first-form">
+                    <input type="email" class="form-control" id="phone_number" aria-describedby="emailHelp" placeholder="Input number...">
+                    <small id="id_Help" class="form-text text-muted">Enter your number phone.</small>
+                  </div>
+                </form>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+                  <div class="col">
+               <div class="d-flex justify-content-center">
+                 <form class="w-50">
+                  <div class="form-group first-form">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Input adress...">
+                    <small id="id_Help" class="form-text text-muted">Enter your adress.</small>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
-          </div>
-           <div class="col-12">
-           <div class="collapse" id="multiCollapseExample2">
-            <div class="card card-body d-flex in_restaurant">
-             <div class="row in_restaurant-block">
-               <div class="col-12">dsdasd</div>
-               <div class="col-12">asdasda</div>
-               <div class="col-12">asdasdasd</div>
-             </div>
+            <div class="row">
+              <div class="col d-flex justify-content-center">
+                <span class="choose_dish">CHOOSE A DISH</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col d-flex justify-content-center">
+                <div class="col-8 dish_menu"></div>
+              </div>
             </div>
           </div>
-          </div>
-        <div class="break">
-            
         </div>
-          <div class="second-row">
-          
-          </div>
-        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="collapse multi-collapse in_restaurant col-12" id="in_restaurant">
+              <div class="card card-body">
+                <div class="row">
+                  <div class="col">
+               <div class="d-flex justify-content-center">
+                 <form class="w-100">
+                  <div class="form-group first-form">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Input number...">
+                    <small id="id_Help" class="form-text text-muted">Enter the number to which the table is reserved.</small>
+                  </div>
+                </form>
+                </div>
+              </div>
+            </div>
+              </div>
     </section>
+    <footer id="footer" class="footer">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-sm-1 d-none d-lg-block"><a href="reserve">RESERVE</a></div>
+            <div class="col-sm-1 d-none d-lg-block"><a href="#">NEWS</a></div>
+            <div class="col-sm-1 d-none d-lg-block"><a href="#">CONTACTS</a></div>
+            <div class="col-sm-6 d-flex justify-content-center copyright">©2019 JULINI ITALIAN RESTAURANT
+            </div>
+            <div class="col-sm-1 d-none d-lg-block"><a href="#"><img src="img/facebook.png" alt="facebook"></a></div>
+            <div class="col-sm-1 d-none d-lg-block"><a href="#"><img src="img/instagram.png" alt="instagram"></a></div>
+            <div class="col-sm-1 d-none d-lg-block"><a href="#"><img src="img/telegram.png" alt="telegram"></a></div>
+        </div>
+        </div>
+    </footer>
 @endsection
