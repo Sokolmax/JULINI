@@ -106,9 +106,10 @@
             <div class="row">
               <div class="col">
                 <div class="form-group row d-flex justify-content-center mt-5">
-                  <label for="example-time-input" class="col-form-label">Time</label>
                      <div class="col-6">
-                        <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+                        <select class="col-11">
+                          <option>Time</option>
+                      </select>
                      </div>
                 </div>
               </div>

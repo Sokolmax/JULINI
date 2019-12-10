@@ -118,6 +118,7 @@
             <div class="col-sm-1 d-none d-lg-block"><a href="reserve">RESERVE</a></div>
             <div class="col-sm-1 d-none d-lg-block"><a href="#">NEWS</a></div>
             <div class="col-sm-1 d-none d-lg-block"><a href="#">CONTACTS</a></div>
+            <div class="col-sm-1 d-none d-lg-block"><a href="/mainAdmin">ADMIN</a></div>
             <div class="col-sm-6 d-flex justify-content-center copyright">©2019 JULINI ITALIAN RESTAURANT
             </div>
             <div class="col-sm-1 d-none d-lg-block"><a href="#"><img src="img/facebook.png" alt="facebook"></a></div>

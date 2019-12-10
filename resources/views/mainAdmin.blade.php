@@ -1,7 +1,7 @@
 @extends("layout")
 
 @section("page-content")
-  <header class="header">
+<header class="header">
     <nav class="navbar navbar-expand-lg nav-m sticky-top">
       <button class="navbar-toggler header-but_m" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-controls="navbarSupportedContent">
             |||
@@ -23,25 +23,16 @@
         </ul>
       </div>
     </nav>
-  	</header>
-  	<section class="map-bg" style="height: 100vw;">
-        <div class="container">
-			<form>
-				<table>
-					<tr class="menudish" style="color: white; border: 0; background-color: black;">
-						<td>NAME</td>
-						<td>WEIGHT(g)</td>
-						<td>COST</td>
-					</tr>
-					@foreach($manus as $manu)
-					<tr class="menudish">
-						<td>{{ $manu->name }}</td>
-						<td>{{ $manu->weight}}</td>
-						<td>{{ $manu->cost}}</td>
-					</tr>
-					@endforeach
-				</table>
-			</form>
-		</div>
-	</section>
+  </header>
+<section >
+    <div class="container">
+      <div>
+      <a href="/dateAdmin" style="text-decoration: none; color: white;">ADD DATA</a>
+      </div>
+      <br>
+      <div>
+      <a href="/menu/create" style="text-decoration: none; color: white;">ADD MENU</a>
+      </div>
+	</div>
+</section>
 @endsection

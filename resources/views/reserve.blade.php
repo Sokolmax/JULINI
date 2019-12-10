@@ -125,8 +125,7 @@
 
               <div class="modal-header justify-content-center">
                 <input type="text" id="reserveNumber" name="reserveNumber" hidden="true">
-                <div>1</div>
-
+                <div>Table number -  <span id="reserveNumber-out"></span></div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -136,6 +135,13 @@
                   <div class="form-group row">
                       <div class="col-12">
                         <input class="form-control {{ $errors->has('reserveName') ? 'is-invalid':''}}" type="text" name="reserveName" id="reserveName" value="{{ old('reserveName') }}" placeholder="Name">
+                        <small class="form-text text-danger">
+                          <ul>
+                            @foreach($errors->get('reserveName') as $error)
+                              <li>{{ $error }}</li>
+                            @endforeach
+                          </ul>
+                        </small>
                       </div>
                   </div>
                   <div class="form-group row">
@@ -169,7 +175,7 @@
 
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="submit" class="btn btn-primary" id="add-client">Reserv</button>
+                  <button type="submit" class="btn btn-primary">Reserv</button>
                 </div>
 
               </form> 
@@ -183,7 +189,24 @@
       <script type="text/javascript">
         function getTabel(id){
           document.getElementById('reserveNumber').value = id;
+          document.getElementById('reserveNumber-out').innerHTML = id;
         }
+
+        $(document).ready(function(){
+          $('#').click(function(){
+            $.ajax({
+              url: '/reserve',
+              type: 'post',
+              data: {
+                _token: "{{!! csrf_token() !!}}"
+              },
+              success:function(msg) {
+                location.href="/reserve";
+              }
+            });
+          });
+        });
+
       </script>
 
 
