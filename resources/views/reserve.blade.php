@@ -159,20 +159,12 @@
                   <div class="form-group row justify-content-center">
                       <select class="col-11">
                         @foreach($datetimes as $datetime)
-                          <option>{{ $datetime->rDate }}</option>
-                        @endforeach
-                      </select>
-                  </div>
-                  
-                  <div class="form-group row justify-content-center">
-                      <select class="col-11">
-                        @foreach($datetimes as $datetime)
-                          <option>{{ $datetime->rTime }}</option>
+                          <option id="rDate-inp">{{ $datetime->rDate }}</option>
                         @endforeach
                       </select>
                   </div>
                 </div>
-
+                <input type="text" id="access-inp" name="access-inp" hidden="true">
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                   <button type="submit" class="btn btn-primary">Reserv</button>
