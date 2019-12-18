@@ -18,6 +18,9 @@ class CreateClientsTable extends Migration
             $table->string("tNumber", 3);
             $table->string("name", 10);
             $table->string("pNumber", 10);
+            $table->string("date", 10);
+            $table->string("time", 5);
+
             $table->timestamps();
         });
     }

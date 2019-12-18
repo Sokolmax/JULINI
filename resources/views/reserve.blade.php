@@ -30,12 +30,6 @@
             <p class="logo-reserv_a">
               RESERVE
             </p>
-            <a href="order">
-              <div class="logo-reserv_o">
-                <a href="order">
-                ORDER
-                </a>
-              </div>
           </div>
           <div class="map">
               <div class="first-row">
@@ -157,11 +151,20 @@
                       </div>
                   </div>
                   <div class="form-group row justify-content-center">
-                      <select class="col-11">
+                      <select class="col-11" id="opt-date" name="opt-date">
                         @foreach($datetimes as $datetime)
-                          <option id="rDate-inp">{{ $datetime->rDate }}</option>
+                          <option value="{{ $datetime->rDate }}">{{ $datetime->rDate }}</option>
                         @endforeach
                       </select>
+
+                  </div>
+                  <div class="form-group row justify-content-center">
+                      <select class="col-11" id="opt-time" name="opt-time">
+                        @foreach($datetimes as $datetime)
+                          <option value="{{ $datetime->rTime }}">{{ $datetime->rTime }}</option>
+                        @endforeach
+                      </select>
+                      
                   </div>
                 </div>
                 <input type="text" id="access-inp" name="access-inp" hidden="true">
@@ -182,23 +185,8 @@
         function getTabel(id){
           document.getElementById('reserveNumber').value = id;
           document.getElementById('reserveNumber-out').innerHTML = id;
+
         }
-
-        $(document).ready(function(){
-          $('#').click(function(){
-            $.ajax({
-              url: '/reserve',
-              type: 'post',
-              data: {
-                _token: "{{!! csrf_token() !!}}"
-              },
-              success:function(msg) {
-                location.href="/reserve";
-              }
-            });
-          });
-        });
-
       </script>
 
 

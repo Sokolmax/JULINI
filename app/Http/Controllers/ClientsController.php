@@ -30,6 +30,8 @@ class ClientsController extends Controller
         $client->tNumber = \request('reserveNumber');
         $client->name = \request('reserveName');
         $client->pNumber = \request('reservePhone');
+        $client->date = \request('opt-date');
+        $client->time = \request('opt-time');
     	$client->save();
     	return redirect('/reserve');
     }

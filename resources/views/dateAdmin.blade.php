@@ -37,6 +37,14 @@
 	        @endforeach
 	        </ul>
 	        </small>
+          <input type="text" class="form-control {{ $errors->has('rTime-inp') ? 'is-invalid':''}}" name="rTime-inp" id="rTime-inp" value="{{ old('rTime-inp') }}" placeholder="TIME:">
+      <small class="form-text text-danger">
+           <ul>
+          @foreach($errors->get('rTime-inp') as $error)
+              <li>{{ $error }}</li>
+          @endforeach
+          </ul>
+          </small>
 			<button style="background-color: white; border: 0;">ADD</button>
 		</form>
 	</div>
