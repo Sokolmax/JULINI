@@ -33,6 +33,30 @@
       <div>
       <a href="/menu/create" style="text-decoration: none; color: white;">ADD MENU</a>
       </div>
+      <section class="map-bg" style="height: 100vw;">
+        <div class="container">
+      <form>
+        <table>
+          <tr class="menudish" style="color: white; border: 0; background-color: black;">
+            <td>TABLE</td>
+            <td>NAME</td>
+            <td>PHONE NUMBER</td>
+            <td>DATE</td>
+            <td>TIME</td>
+          </tr>
+          @foreach($clients as $client)
+          <tr class="menudish">
+            <td>{{ $client->tNumber }}</td>
+            <td>{{ $client->name }}</td>
+            <td>{{ $client->pNumber }}</td>
+            <td>{{ $client->date }}</td>
+            <td>{{ $client->time }}</td>
+          </tr>
+          @endforeach
+        </table>
+      </form>
+    </div>
+  </section>
 	</div>
 </section>
 @endsection

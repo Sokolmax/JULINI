@@ -14,9 +14,7 @@
 Route::get('/', function () {
     return view('main');
 });
-Route::get('/mainAdmin', function () {
-    return view('mainAdmin');
-});
+Route::get('/mainAdmin', "MainAdminController@index");
 Route::get('/reserve', "ClientsController@reserve");
 Route::get('/order', "ClientsController@order");
 Route::get('/send', "mailController@send");
